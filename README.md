@@ -11,4 +11,5 @@ Objetivo
 Desenvolver um site moderno e responsivo para um pet shop, colocando em prática os conhecimentos adquiridos durante os estudos.
 
 Status
+
 Projeto em desenvolvimento.
