@@ -50,3 +50,86 @@ ul{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1px;
 }
+
+img{
+    display: block;
+    margin: auto;
+    padding: 25px 25px;
+}
+
+nav{
+    display: block;
+    margin: auto;
+    text-align: right;
+    padding: 20px;
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.5s ease;
+    color: black;
+}
+
+a:hover{
+    background-color: rgb(189, 188, 188);
+    box-shadow: 1.5px 1.5px black;
+}
+
+footer{
+     background: linear-gradient(tomato, darkorange, orange);
+     display: block;
+     margin: auto;
+     text-align: center;
+     padding: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card-depoimento{
+    background-color: whitesmoke;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.card-depoimento p{
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+.card-depoimento span{
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: 666666;
+}
+
+aside{
+    margin: 30px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    transition: 0.5 ease;
+}
+
+button:hover{
+    background-color: tomato;
+    box-shadow: 1.5px 1.5px black;
+}
